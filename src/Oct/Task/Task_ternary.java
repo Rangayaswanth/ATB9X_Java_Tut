@@ -8,8 +8,8 @@ public class Task_ternary {
         String result = (age>number?"age is greater":"number is greater");
         int result2 = age > number? age : number;
         int result3 = people > result2? people : result2;
-        System.out.println(result);
-        System.out.println(result2);
+        //System.out.println(result);
+      //  System.out.println(result2);
         System.out.println(result3);
     }
 }
